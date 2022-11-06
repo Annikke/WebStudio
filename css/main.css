@@ -1057,12 +1057,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .portfolio__item {
-    flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__item {
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
   }
 }
 
@@ -1114,6 +1114,6 @@ body {
   transform: translateY(100%);
   transition: transform var(--transition-duration) var(--transition-timing-function);
 }
-.portfolio__thumb:hover .portfolio__overlay {
+.portfolio__thumb:hover .portfolio__overlay, .portfolio__thumb:focus .portfolio__overlay {
   transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
