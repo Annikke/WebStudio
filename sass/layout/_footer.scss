@@ -3,6 +3,11 @@
     & .logo__part {
         color: var(--primary-white-color);
     }
+
+    @include desktop {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .footer__container {
